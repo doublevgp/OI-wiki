@@ -36,7 +36,7 @@ v0.reserve(3);
 // 2. 创建一个初始空间为3的vector，其元素的默认值是0; 线性复杂度
 vector<int> v1(3);
 // 3. 创建一个初始空间为3的vector，其元素的默认值是2; 线性复杂度
-vector<int> v2(3, 2);
+vector<int> v2(3, 1);
 // 4. 创建一个初始空间为3的vector，其元素的默认值是1，
 // 并且使用v2的空间配置器; 线性复杂度
 vector<int> v3(3, 1, v2.get_allocator());
